@@ -2,7 +2,7 @@
 
 **Name:** Bhanu Reddy  
 **Registration Number:** 2022bcd0026  
-**Status:** Ready for final testing - Both scenarios
+**Status:** Triggering successful deployment - BEST_MSE set to 1.0
 
 ## Project Overview
 
