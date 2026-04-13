@@ -13,6 +13,8 @@ env:
 jobs:
   train-and-evaluate:
     runs-on: ubuntu-latest
+    outputs:
+      improved: ${{ steps.compare.outputs.improved }}
     
     steps:
     - name: Checkout code
@@ -123,8 +125,3 @@ jobs:
         echo "Updating BEST_MSE to ${{ needs.train-and-evaluate.outputs.mse }}"
         # Note: This requires GitHub CLI with appropriate permissions
         # gh variable set BEST_MSE --body "${{ needs.train-and-evaluate.outputs.mse }}"
-
-outputs:
-  improved:
-    description: "Whether the model improved"
-    value: ${{ jobs.train-and-evaluate.steps.compare.outputs.improved }}
