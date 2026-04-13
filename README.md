@@ -2,7 +2,7 @@
 
 **Name:** Bhanu Reddy  
 **Registration Number:** 2022bcd0026  
-**Status:** Triggering skip scenario - BEST_MSE set to 0.01
+**Status:** Ready for final testing - Both scenarios
 
 ## Project Overview
 
