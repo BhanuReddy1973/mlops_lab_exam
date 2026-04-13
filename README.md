@@ -2,7 +2,7 @@
 
 **Name:** Bhanu Reddy  
 **Registration Number:** 2022bcd0026  
-**Status:** Secrets configured - Ready to deploy!
+**Status:** Testing skip scenario
 
 ## Project Overview
 
